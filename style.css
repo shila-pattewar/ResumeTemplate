@@ -1,0 +1,244 @@
+body{
+    background-color: black;
+}
+.main_container{
+    background-color: rgb(49, 47, 47);
+    color: white;
+    width: 50%;  
+    box-shadow: 0 0 5px 2px #696868;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    font-size: 14px;
+}
+p{
+    color: #a49d9d;
+}
+
+h1{
+    margin: 0px;
+}
+
+.section1{
+    display: flex;
+    width: auto;
+    flex-wrap: wrap;
+}
+.box1{
+    display: flex;
+    flex-grow: 1
+}
+.photo img{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}
+
+.name{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding: 15px 10px;
+}
+
+.name p{
+    color: rgb(17, 126, 203);
+    line-height: 0px;
+}
+
+.name h3{
+    padding-top: 10px;
+    margin-bottom: 0px;
+    line-height: 0px;
+    
+}
+
+.box2{
+    margin-left: auto;
+    width: 300px;
+    text-align: left;
+    line-height: 8px;
+}
+
+.middle-container{  
+    display: flex;
+    padding: 20px 0;
+}
+
+.heading{
+    background-color: #595950;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.heading img {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .heading h1 {
+    position: relative;
+    font-size:14px;
+  }
+
+.split-para { 
+    display:block;
+    color:white;
+    font-size: 16px;
+}
+.split-para span { 
+    display:block;
+    float:right;
+    width:auto; 
+    color: gray;
+}
+
+.split-para img{
+    width: 20px;
+    height: 20px; 
+    padding: 5px 0px;
+}
+
+.heading2{
+    margin-top: 0px;
+    margin-left: 25px;  
+}
+
+.heading3{
+    margin: -13px 0px 0px 20px;
+}
+
+.section2{
+    width: 80%;
+    margin-right: 50px;
+}
+
+span{
+    color: white;
+}
+
+.side-heading1{
+    margin-top: 0px;
+}
+
+hr{
+    background-color: #494949;;
+    height: 1px;
+    border: 0;
+} 
+
+.year {
+    text-align: right;
+    padding-top: 10px;
+  }
+
+ul{
+    padding-left: 10px;
+    color: #a49d9d;
+  }
+
+li {
+    list-style: none;
+  }
+
+  .navyblue::before {
+    color:rgb(17, 58, 223);
+    content:'\25A0'; /* For a square bullet */
+    position: relative;
+    left: -10px;
+  }
+
+  .skyblue::before {
+    color:rgb(66, 212, 235);
+    content:'\25A0'; /* For a square bullet */
+    position: relative;
+    left: -10px;
+  }
+
+  .green::before {
+    color:rgb(50, 186, 89);
+    content:'\25A0'; /* For a square bullet */
+    position: relative;
+    left: -10px;
+  }
+
+  .yellow::before {
+    color:rgb(220, 230, 22);
+    content:'\25A0'; /* For a square bullet */
+    position: relative;
+    left: -10px;
+  }
+
+  .red::before {
+    color:red;
+    content:'\25A0'; /* For a square bullet */
+    position: relative;
+    left: -10px;
+  }
+
+  .light-one{
+    width: 100%;
+    background-color: gray;
+  }
+
+  .one{
+    width:90%;
+    background-color:rgb(17, 58, 223); 
+    text-align: right;
+    font-size: 12px; 
+    margin: 5px 0px;
+  }
+  
+  .light-two{
+    width: 100%;
+    background-color: gray;
+  }
+
+  .two{
+    width:80%;
+    background-color:rgb(66, 212, 235);
+    text-align: right;
+    font-size: 12px; 
+    margin: 5px 0px;
+  }
+
+  .light-three{
+    width: 100%;
+    background-color: gray;
+  }
+
+  .three{
+    width:93%;
+    background-color:rgb(50, 186, 89);
+    text-align: right;
+    font-size: 12px;
+    margin: 5px 0px;
+  }
+
+  .light-four{
+    width: 100%;
+    background-color: gray;
+  }
+
+  .four{
+    width:80%;
+    background-color:rgb(220, 230, 22);
+    text-align: right;
+    font-size: 12px; 
+    margin: 5px 0px;
+  }
+
+  .light-five{
+    width: 100%;
+    background-color: gray;
+  }
+
+  .five{
+    width:70%;
+    background-color:red; 
+    text-align: right;
+    font-size: 12px;
+    margin: 5px 0px;
+  }
